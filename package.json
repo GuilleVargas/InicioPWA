@@ -1,15 +1,19 @@
 {
-  "name": "Covid19pwa",
+  "name": "covid-pwa",
   "version": "1.0.0",
   "description": "PWA demo",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server .",
+    "build": "build ."
   },
   "keywords": [
     "pwa",
     "covid19"
   ],
-  "author": "guillevargas",
-  "license": "ISC"
+  "author": "jupegarnica",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
